@@ -1,0 +1,81 @@
+table,th,td{
+    border:1px solid black;
+    width: 500px;
+}
+.osnova{
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+header{
+    background-color: #AEB6BF;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.basic{
+    background-color: #ECF0F1;
+    padding-left: 90px;
+    padding-right: 90px;  
+}
+
+.qualities{
+    margin-left: -22px;
+    padding: 2px;
+}
+.year{
+    text-align: center;
+}
+.pos{
+    padding-right: 0px;
+}
+.table{
+    border-right-color:navy;
+    border-left-color:navy;
+    border-top-color:navy;
+    border-bottom-color: navy;
+    border-top-width: 10px;
+    border-left-width: 6px;
+    border-right-width: 6px;
+    border-bottom-width: 10px;
+    border-radius: 7px;
+    width: 100%;
+}
+a{
+    text-decoration:none ;
+     
+}
+
+a:hover {
+   text-decoration:underline; 
+}
+.foto{
+    border-radius: 55%;
+    box-shadow: 5px 10px 20px;
+}
+.prof{
+    border-radius: 20px;
+    background-color: aqua;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    
+}
+.zah{
+    border-radius: 20px;
+    background-color:aquamarine;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;  
+}
+.my-zah{
+    text-align: center;
+}
+.prof-i{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
