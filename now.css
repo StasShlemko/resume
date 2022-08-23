@@ -79,3 +79,10 @@ a:hover {
 h2{
     text-align: center;
 }
+.select{
+    margin-top: 10px; 
+    /* padding-top: 10px; */
+}
+.sex{
+    margin-top: 15px;
+}

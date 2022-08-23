@@ -67,6 +67,45 @@
             <li class="qualities">Пунктуальність</li>
         </ul>
     </div>
+    <form action="#" method="get">
+        <div>
+            <p>Імя</p>
+            <input placeholder="Імя" type="text" name="username">
+        </div>
+        <div>
+            <p>Прізвище</p>
+            <input placeholder="Прізвище" type="text" name="usersurname">
+        </div>
+        <div>
+            <p>Телефон</p>
+            <input placeholder="Номер" type="tel" name="usertel" value="+380">
+        </div>
+        <div class="sex">
+            <p>Стать</p>
+            <!-- <label for="man">Стать</label> -->
+            <input type="radio" name="gender" value="male">Чоловік
+            <!-- <br> -->
+            <!-- <label for="woman">Стать</label> -->
+            <input type="radio" name="gender" value="female">Жінка
+        </div>
+        <div>
+            <p>Додаткова інформація</p>
+            <textarea name="text"  cols="21" rows="5"></textarea>
+        </div>
+        <div>
+            <p>Дії</p>
+            <button type="submit">Відправити</button>
+            <button type="reset">Видалити</button>
+        </div>
+        <select class="select" name="color" id="">
+            <optgroup label="Варіанти">
+            <option value="1">Один</option>
+            <option value="2">Два</option>
+            <option value="3">Три</option>
+        </optgroup>
+        </select>
+        
+            </form>
 </div>
 </div>
 
